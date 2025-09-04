@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+application {
+    mainClass = 'eu.flexworks.processor.Main'
+}
+
+group = 'eu.flexworks.processor'
+version = '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add dependencies here
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'eu.flexworks.processor.Main'
+        )
+    }
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add dependencies here
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'eu.flexworks.processor.Main'
+        )
+    }
+}
