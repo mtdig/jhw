@@ -1,5 +1,5 @@
 
-package eu.flexworks.processor;
+package eu.mtdig.processor;
 import helpers.Helper;
 
 public class Main {

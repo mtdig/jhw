@@ -3,10 +3,10 @@ plugins {
     id 'application'
 }
 application {
-    mainClass = 'eu.flexworks.processor.Main'
+    mainClass = 'eu.mtdig.processor.Main'
 }
 
-group = 'eu.flexworks.processor'
+group = 'eu.mtdig.processor'
 version = '1.0-SNAPSHOT'
 
 
@@ -26,7 +26,7 @@ java {
 jar {
     manifest {
         attributes(
-            'Main-Class': 'eu.flexworks.processor.Main'
+            'Main-Class': 'eu.mtdig.processor.Main'
         )
     }
 }
@@ -50,7 +50,7 @@ java {
 jar {
     manifest {
         attributes(
-            'Main-Class': 'eu.flexworks.processor.Main'
+            'Main-Class': 'eu.mtdig.processor.Main'
         )
     }
 }
